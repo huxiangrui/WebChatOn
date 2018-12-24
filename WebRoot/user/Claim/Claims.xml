@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Claims xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Claims.xsd">  
+  <Claim> 
+    <currentDate>05-28-2017 14-36-09</currentDate>  
+    <serviceDate>05-28-2017</serviceDate>  
+    <providerNumber>000000001</providerNumber>  
+    <memberNumber>111111111</memberNumber>  
+    <serviceCode>121121</serviceCode>  
+    <note>a</note> 
+  </Claim>  
+  <Claim> 
+    <currentDate>06-01-2017 23-08-14</currentDate>  
+    <serviceDate>01-12-2017</serviceDate>  
+    <providerNumber>000000001</providerNumber>  
+    <memberNumber>111111111</memberNumber>  
+    <serviceCode>121121</serviceCode>  
+    <note/> 
+  </Claim>  
+  <Claim>
+    <currentDate>06-04-2017 15-27-02</currentDate>
+    <serviceDate>04-11-2017</serviceDate>
+    <providerNumber>000000001</providerNumber>
+    <memberNumber>111111111</memberNumber>
+    <serviceCode>121121</serviceCode>
+    <note></note>
+  </Claim>
+</Claims>

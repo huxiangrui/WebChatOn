@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Providers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Providers.xsd">  
+  <Provider number="000000001"> 
+    <name>Tom</name>  
+    <address>aa</address>  
+    <city>WuHan</city>  
+    <country>C</country>  
+    <zip>12111</zip>  
+    <email>121@qq.com</email>  
+    <type>I</type> 
+  </Provider>  
+  <Provider number="111111111">
+    <name>Anny</name>
+    <address>aa</address>
+    <city>aa</city>
+    <country>aa</country>
+    <zip>12345</zip>
+    <email>11@qq.com</email>
+    <type>E</type>
+  </Provider>
+</Providers>

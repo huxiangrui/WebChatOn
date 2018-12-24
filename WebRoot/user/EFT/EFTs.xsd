@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="EFTs">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="EFT">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ReportDate"/>
+							<xs:element name="Providers">
+								<xs:complexType>
+									<xs:sequence minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="Provider">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="ProviderName">
+														<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:maxLength value="25"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="ProviderNumber" type="xs:string"/>
+													<xs:element name="TotalFee">
+														<xs:simpleType>
+															<xs:restriction base="xs:double">
+																<xs:minInclusive value="0" fixed="false"/>
+																<xs:maxInclusive value="100000" fixed="false"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

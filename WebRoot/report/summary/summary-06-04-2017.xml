@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<SummaryReport>
+  <ReportDate>06-04-2017</ReportDate>
+  <Summarys>
+    <Summary>
+      <ProviderName>Tom</ProviderName>
+      <ProviderNumber>000000001</ProviderNumber>
+      <ConsultCount>2</ConsultCount>
+      <SumFee>20.0</SumFee>
+    </Summary>
+    <Summary>
+      <ProviderName>Tom</ProviderName>
+      <ProviderNumber>000000001</ProviderNumber>
+      <ConsultCount>2</ConsultCount>
+      <SumFee>20.0</SumFee>
+    </Summary>
+  </Summarys>
+  <ProviderCount>2</ProviderCount>
+  <ConsultCount>4</ConsultCount>
+  <SumFee>20.0</SumFee>
+</SummaryReport>

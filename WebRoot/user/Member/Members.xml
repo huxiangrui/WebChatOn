@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Members xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Members.xsd">  
+  <Member number="111111111">
+    <name>Anny</name>
+    <address>a</address>
+    <city>Wuhan</city>
+    <country>US</country>
+    <zip>11111</zip>
+    <email>111@qq.com</email>
+    <status>A</status>
+  </Member>
+</Members>

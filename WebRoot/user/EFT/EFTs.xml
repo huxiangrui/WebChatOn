@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EFTs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EFTs.xsd">  
+  <EFT> 
+    <ReportDate>05-31-2017</ReportDate>  
+    <Providers> 
+      <Provider> 
+        <ProviderName>Tom</ProviderName>  
+        <ProviderNumber>000000001</ProviderNumber>  
+        <TotalFee>10.0</TotalFee> 
+      </Provider> 
+    </Providers> 
+  </EFT>  
+  <EFT>
+    <ReportDate>06-04-2017</ReportDate>
+    <Providers>
+      <Provider>
+        <ProviderName>Tom</ProviderName>
+        <ProviderNumber>000000001</ProviderNumber>
+        <TotalFee>10.0</TotalFee>
+      </Provider>
+    </Providers>
+  </EFT>
+</EFTs>

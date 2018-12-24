@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Services.xsd">  
+  <Service code="121121"> 
+    <name>Exercise</name>  
+    <fee>10.0</fee> 
+  </Service>  
+  <Service code="101010"> 
+    <name>Internist</name>  
+    <fee>15.0</fee> 
+  </Service>  
+</Services>
